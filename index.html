@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add Bootstrap CDN link -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to your custom CSS file -->
+    <title>Weather Forecast App</title>
+    
+</head>
+<body  background = "alin-andersen-HgZY0oYkpi8-unsplash.jpg" background-repeat = "no-repeat">
+   
+    
+    <div class="container mt-5 ">
+        <h1 class="mb-4"><b>WEATHER FORECAST APP</b></h1>
+        <div class="form-group">
+            <label for="locationInput">Enter City or ZIP Code:</label>
+            <input type="text" class="form-control" id="locationInput" placeholder="City or ZIP Code">
+        </div>
+        <button id="getWeatherButton" class="btn btn-primary">Get Weather</button>
+
+        <div id="weatherInfo" class="weather-info mt-4"></div>
+    </div>
+
+    <!-- Include Bootstrap JS and Popper.js via CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+    <!-- Include your custom script -->
+    <script src="script.js"></script>
+</body>
+</html>
